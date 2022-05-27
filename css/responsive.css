@@ -3,6 +3,10 @@
     section {
         display: flex;
     }
+
+    .container {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -17,7 +21,15 @@
         margin-bottom: 30px;
     }
 
+    .steps {
+        margin-bottom: 0;
+    }
+
     .why-us {
         background: #000;
+        padding-top: 3rem;
+        margin-bottom: 0;
     }
+
+
 }
